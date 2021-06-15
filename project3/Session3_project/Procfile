@@ -1,0 +1,1 @@
+web: gunicorn --workers=2 'p_app:create_app()'
