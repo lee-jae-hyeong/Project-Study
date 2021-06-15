@@ -12,8 +12,8 @@
 ### 데이터 엔지니어링
 ### 영화 평점 예측 웹 어플리케이션 구현(Flask, Beuatiful Soup4을 통한 크롤링, Conda, Heroku 배포, SQLite로 DB 구축 등)
 ## Project4 (2021년 4월)
-### NLP 모델링
+### 딥러닝(NLP)
 ### 커머스(아마존 푸드 데이터) - NLP(Natural Language Processing)를 통한 감성 분석 및 LSTM(Attention) 요약문 모델 구현
 ## Project5 (2021년 6월)
-### 추천 시스템 및 NLP 모델링
+### 추천 시스템 및 딥러닝(NLP)
 ### 커머스(아마존 데이터) - 아이템 기반 협업 필터링 추천 시스템 구현 및 NLP(Natural Language Processing)를 통한 카테고리 분류 추천 시스템 구현(LSTM, LSTM(Attention), LSTM(Glove), Bert)
