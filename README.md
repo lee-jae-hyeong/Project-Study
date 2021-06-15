@@ -1,6 +1,6 @@
 # Project_myself
 
-## 프로젝트에 대한 주제와 간단한 소개
+## 프로젝트에 대한 주제 소개
 
 ## Project1 
 ### Video Game data - Video Game data의 EDA를 통한 인사이트 추출
