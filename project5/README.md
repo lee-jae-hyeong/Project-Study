@@ -5,9 +5,9 @@
 ##### - 아이템 기반 협업 필터링의 경우, 콜드 스타트 문제가 있어서 신규 고객이나 고객 행동 패턴이 거의 없을 경우에 적용하기엔 한계가 있음. 
 ##### - 내용 기반 추천 알고리즘과는 다른 새로운 추천 방식을 적용해보고자 NLP를 활용하여 추천 시스템을 적용시키기 위함.
 #### 3. 데이터 : Amazon Food Reviews Data로 1999년 10월 - 2012년 10월의 리뷰 기재
-##### - Feature data : 568,454 x 10
-##### - URL : https://www.kaggle.com/snap/amazon-fine-food-reviews
-#### 4. 활용 키워드 : EDA, Data Visualization, DL(LSTM, Attention), ML(RandomForest, XGboost), Tensorflow  등
+##### - Feature data : train_data(40000 x 10), test_data(10000 x 10)
+##### - URL : https://www.kaggle.com/kashnitsky/hierarchical-text-classification
+#### 4. 활용 키워드 : EDA, Data Visualization, DL(LSTM, Attention), ML(RandomForest, XGboost), Tensorflow, 코사인 유사도, 협업 필터링  등
 #### 5. 모델링 프로세스
 ##### 코사인 유사도를 기반으로 아이템 간의 유사도를 구한 후, 유저들의 선호도가 반영된 평점과 내적함. 
 ##### 그리고 유저가 구매하지 않은 제품 중 제품 간의 유사도가 높은 상위 5개 제품을 추천해주는 방식으로 구현
@@ -15,7 +15,7 @@
 ##### DL을 통해서 모델링을 하여 리뷰 텍스트들을 기반으로 어떤 카테고리에 속하는 리뷰인지를 분류하는 모델을 구현
 ##### 이러한 모델을 통해서, 실제 단어나 문장이 들어왔을 때, 해당 텍스트와 유사한 카테고리의 제품들 중 평균 평점에서 누적 구매수량을 가중치로 더하여 높은 상위 5개의 제품을 추천해주는 방식으로 구현
 
-#### 5. 가설 설정 : 5점인 경우, 부정적인 내용이 없으므로 긍정, 4점 이하의 경우, 부정적인 내용이 있을 가능성이 높으므로 부정으로 분류가 가능하다.
+#### 5. 가설 설정 : 
 #### 6. 모델 성능
 ##### 
 
