@@ -4,6 +4,7 @@
 #### 3. 활용 키워드 : EDA, Data Visualization, ML(RandomForest, XGBoost), Randomized SearchCV, SHAP, PDP 등
 #### 4. 가설 설정 : 경제 상황이 매출에 영향을 미칠 것이다. - EDA를 진행하면서 가설 설정
 #### 4. 머신러닝 모델 성능 
+##### - R2 score가 가장 높은 모델은 랜덤포레스트를 교차 검증을 통해 하이퍼 파라미터 튜닝을 마친 모델이다. R2 score가 1에 근접하기 때문에 일반화할 수 있는 모델로 판단할 수 있다.
 ![image](https://user-images.githubusercontent.com/76590396/125896430-a4f7a238-622f-4315-87e1-7c2ce82fd520.png)
 
 #### 5. 결론
