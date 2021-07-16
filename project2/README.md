@@ -1,6 +1,7 @@
 ### 개인프로젝트 
 #### 1. 주제 : 월마트 매출 예측을 통한 인사이트 도출 (회귀 문제 유형)
-#### 2. 데이터 : kaggle의 월마트 점포별 2010/2/5 ~ 2012/11/1 까지의 과거 판매 데이터(Feature data : 8190 x 12 / Sale data : 412570 x 5 / Store data : 45 x 3)
+#### 2. 데이터 : kaggle의 월마트 점포별 2010/2/5 ~ 2012/11/1 까지의 과거 판매 데이터
+##### - (Feature data : 8190 x 12 / Sale data : 412570 x 5 / Store data : 45 x 3)
 #### 3. 활용 키워드 : EDA, Data Visualization, ML(RandomForest, XGBoost), Randomized SearchCV, SHAP, PDP 등
 #### 4. 가설 설정 : 경제 상황이 매출에 영향을 미칠 것이다. - EDA를 진행하면서 가설 설정
 #### 4. 머신러닝 모델 성능 
