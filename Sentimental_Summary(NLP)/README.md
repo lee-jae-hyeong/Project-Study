@@ -12,8 +12,16 @@
 ##### 평점이 5점인 리뷰의 경우 1로 치환, 평점이 4점 이하인 리뷰의 경우 0으로 치환하여 감성 분석 모델 구현 - ML과 DL 성능 비교 실시
 ##### 리뷰 텍스트를 Feature로 설정, 요약문을 label로 설정하여 LSTM with Attention 모델 구현
 ### 5. 가설 설정 : 5점인 경우, 부정적인 내용이 없으므로 긍정, 4점 이하의 경우, 부정적인 내용이 있을 가능성이 높으므로 부정으로 분류가 가능하다.
+
 ### 6. 모델 성능
-##### 
+#### - 감성 분석 모델(Accuracy 기준)
+##### 1. Version1 : LSTM Model(0.88)
+##### 2. Version2 : RadomForest(0.63), XGBoost(0.62), LSTM(0.63), BERT(0.81)
+
+#### - 요약문 모델(Accuracy 기준)
+##### 1. Version1 : LSTM with Attention(0.70)
+##### 2. Version2 : LSTM with Attention(0.64)
+### 7. 배운점
 
 
 #### 5. 결론
