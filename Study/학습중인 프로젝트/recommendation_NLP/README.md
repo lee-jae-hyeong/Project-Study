@@ -28,12 +28,12 @@
 ![image](https://user-images.githubusercontent.com/76590396/127203202-3157dae2-5ceb-4291-beb4-e369905d253a.png)
 #### (위 이미지에 대한 참고 사항) New Rating = 새로운 평점 / Mean Ratning = 제품의 평균 평점 / Total Amount = 제품의 누적 판매 수량
 ### 7. 결과
-#### 앙상블 모델 성능
+#### 7-1.앙상블 모델 성능
 ![image](https://user-images.githubusercontent.com/76590396/127200424-3ee73e96-cbba-43dd-9a3a-3b87bd2e11f7.png)
 #### -RFC(랜덤포레스트), RFC_CV(랜덤포레스트, GridSearchCV), XGB(XGBoost), XGB_CV(XGBoost, GridSearchCV)
 #### -앙상블의 공통적으로 들어간 요소 : Chi2, TF-IDF
 
-#### 딥러닝 모델 성능
+#### 7-2.딥러닝 모델 성능
 ![image](https://user-images.githubusercontent.com/76590396/127201121-828f6530-4bad-4c39-9f47-015dc7e604a3.png)
 #### -LSTM, LSTM with Attention, LSTM(Glove), BERT, LSTM(Glove) with attention, Seq2Seq(LSTM with attention)
 #### 결과 : 앙상블 모델과 딥러닝 모델 중, 가장 높은 성능을 보인 모델은 Sequence to Sequence 형태의 LSTM with Attention 모델로, 성능이 0.91이 나왔음.
@@ -41,7 +41,7 @@
 ![image](https://user-images.githubusercontent.com/76590396/127201284-6d20849d-799e-427f-aee2-289a5bca1d1d.png)
 #### epochs = 50, patience = 15로 학습을 진행하며 Early Stopping을 활용하였음.
 #### 그래서, 시각화 자료에서 도중에 끊긴 그래프들이 보임. 이는 Early Stopping으로 빠르게 손실이 최소화되는 구간을 찾았기 때문임.
-
+#### 7-3. 새로운 평점으로 상위 5개 제품 추천
 ![image](https://user-images.githubusercontent.com/76590396/127204318-b4b88265-6ff0-4223-aa59-77baf0f2ea7b.png)
 #### 왼쪽 이미지는, 단순하게 평균 평점만으로 상위 5개 제품을 추천해준 것인데, 이러한 방식은 1명이 구매하고, 평점이 5점인 경우로만 나타나게 됨. 그러므로, 해당 평점에 대한 신뢰도가 다소 부족하다고 판단하였음.
 #### 그래서 누적 구매 수량을 가중치로 더하여, 오른쪽 이미지처럼 단순 평균 평점과 완전히 다른 신뢰도가 있는 상품을 추천해줄 수 있게 됨.
