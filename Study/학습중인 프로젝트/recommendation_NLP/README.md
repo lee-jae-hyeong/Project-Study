@@ -17,8 +17,12 @@
 
 #### 5. 가설 설정 : 
 #### 6. 모델 성능
-##### 
+##### 앙상블 모델 성능
+![image](https://user-images.githubusercontent.com/76590396/127200424-3ee73e96-cbba-43dd-9a3a-3b87bd2e11f7.png)
+##### -RFC(랜덤포레스트), RFC_CV(랜덤포레스트, GridSearchCV), XGB(XGBoost), XGB_CV(XGBoost, GridSearchCV)
+##### -앙상블의 공통적으로 들어간 요소 : Chi2, TF-IDF
 
+##### 딥러닝 모델 성능
 
 #### 5. 결론
 ##### - 
