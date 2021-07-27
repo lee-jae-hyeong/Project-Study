@@ -23,6 +23,10 @@
 ##### -앙상블의 공통적으로 들어간 요소 : Chi2, TF-IDF
 
 ##### 딥러닝 모델 성능
+![image](https://user-images.githubusercontent.com/76590396/127201121-828f6530-4bad-4c39-9f47-015dc7e604a3.png)
+##### -LSTM, LSTM with Attention, LSTM(Glove), BERT, LSTM(Glove) with attention, Seq2Seq(LSTM with attention)
+![image](https://user-images.githubusercontent.com/76590396/127201253-a5b87f31-6a3d-4fbf-a240-036443d45be6.png)
+![image](https://user-images.githubusercontent.com/76590396/127201284-6d20849d-799e-427f-aee2-289a5bca1d1d.png)
 
 #### 5. 결론
 ##### - 
