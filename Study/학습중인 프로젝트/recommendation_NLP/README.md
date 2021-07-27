@@ -1,19 +1,20 @@
 # 개인프로젝트
 ### 1. 주제 : Amazon Reviews 데이터를 활용한 NLP 추천 모델링 구현
-# 
-### 2. 주제 선정 이유 
+### 2. 프로젝트 기간 : Version1 (2021.06.01 ~ 2021.06.11) / Version2(보완 완료)
+#
+### 3. 주제 선정 이유 
 #### - 이커머스나 OTT 등 추천 시스템은 매우 필수적인 요소가 되었기 때문에 아이템 기반의 협업 필터링 구현을 통해 사용자들에게 추천을 하기 위함.
 #### - 아이템 기반 협업 필터링의 경우, 콜드 스타트 문제가 있어서 신규 고객이나 고객 행동 패턴이 거의 없을 경우에 적용하기엔 한계가 있음. 
 #### - 내용 기반 추천 알고리즘과는 다른 새로운 추천 방식을 적용해보고자 NLP를 활용하여 추천 시스템을 구현하기 위함
 #  
-### 3. 데이터 : Amazon Reviews Data 
+### 4. 데이터 : Amazon Reviews Data 
 #### - Feature data : train_data(40000 x 10), test_data(10000 x 10)
 #### - URL : https://www.kaggle.com/kashnitsky/hierarchical-text-classification
 #     
-### 4. 활용 키워드 :
+### 5. 활용 키워드 :
 ![image](https://user-images.githubusercontent.com/76590396/127207796-ca8201c5-ed94-46cc-a310-5ef56d44211d.png)
 #  
-### 5. 모델링 프로세스
+### 6. 모델링 프로세스
 ![image](https://user-images.githubusercontent.com/76590396/127205894-3caa2d24-7efa-4f1a-a343-db822b5332fa.png)
 
 
@@ -24,7 +25,7 @@
 ##### 이러한 모델을 통해서, 실제 단어나 문장이 들어왔을 때, 해당 텍스트와 유사한 카테고리의 제품들 중 평균 평점에서 누적 구매수량을 가중치로 더하여 높은 상위 5개의 제품을 추천해주는 방식으로 구현
 ![image](https://user-images.githubusercontent.com/76590396/127203202-3157dae2-5ceb-4291-beb4-e369905d253a.png)
 #
-### 6. 결과
+### 7. 결과
 #### 앙상블 모델 성능
 ![image](https://user-images.githubusercontent.com/76590396/127200424-3ee73e96-cbba-43dd-9a3a-3b87bd2e11f7.png)
 #### -RFC(랜덤포레스트), RFC_CV(랜덤포레스트, GridSearchCV), XGB(XGBoost), XGB_CV(XGBoost, GridSearchCV)
@@ -38,5 +39,5 @@
 ####     
 ![image](https://user-images.githubusercontent.com/76590396/127204318-b4b88265-6ff0-4223-aa59-77baf0f2ea7b.png)
 #
-### 7. 결론
+### 8. 결론
 #### - 
