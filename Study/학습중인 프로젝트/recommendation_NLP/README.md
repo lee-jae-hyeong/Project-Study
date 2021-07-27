@@ -9,7 +9,8 @@
 ##### - Feature data : train_data(40000 x 10), test_data(10000 x 10)
 ##### - URL : https://www.kaggle.com/kashnitsky/hierarchical-text-classification
 ####     
-### 4. 활용 키워드 : EDA, Data Visualization, DL(LSTM, Attention), ML(RandomForest, XGboost), Tensorflow, 코사인 유사도, 협업 필터링  등
+### 4. 활용 키워드 :
+![image](https://user-images.githubusercontent.com/76590396/127207796-ca8201c5-ed94-46cc-a310-5ef56d44211d.png)
 ####     
 ### 5. 모델링 프로세스
 ![image](https://user-images.githubusercontent.com/76590396/127205894-3caa2d24-7efa-4f1a-a343-db822b5332fa.png)
