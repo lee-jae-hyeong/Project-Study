@@ -24,7 +24,7 @@
 ##### 이러한 모델을 통해서, 실제 단어나 문장이 들어왔을 때, 해당 텍스트와 유사한 카테고리의 제품들 중 평균 평점에서 누적 구매수량을 가중치로 더하여 높은 상위 5개의 제품을 추천해주는 방식으로 구현
 ![image](https://user-images.githubusercontent.com/76590396/127203202-3157dae2-5ceb-4291-beb4-e369905d253a.png)
 #
-### 6. 모델 성능
+### 6. 결과
 #### 앙상블 모델 성능
 ![image](https://user-images.githubusercontent.com/76590396/127200424-3ee73e96-cbba-43dd-9a3a-3b87bd2e11f7.png)
 #### -RFC(랜덤포레스트), RFC_CV(랜덤포레스트, GridSearchCV), XGB(XGBoost), XGB_CV(XGBoost, GridSearchCV)
