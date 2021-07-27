@@ -13,6 +13,7 @@
 #     
 ### 5. 활용 키워드 :
 ![image](https://user-images.githubusercontent.com/76590396/127207796-ca8201c5-ed94-46cc-a310-5ef56d44211d.png)
+#### Tool : Python, Tensorflow2, Scikit-learn, pandas, nltk 등
 #  
 ### 6. 모델링 프로세스
 ![image](https://user-images.githubusercontent.com/76590396/127205894-3caa2d24-7efa-4f1a-a343-db822b5332fa.png)
