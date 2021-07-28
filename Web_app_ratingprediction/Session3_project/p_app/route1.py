@@ -86,14 +86,14 @@ def registmovie():
         return "You've already evaluated it.", 400    
 
     if User.query.filter_by(username = username).first() :     
-        cd = movie(name1)
-        b = code(cd)
-        c = people(name1)
-        if b[1] :
-            db.session.add(List(name = c[3], director = c[0], genre = b[0], country = b[1], actor1 = c[1], actor2 = c[2], rating = rat, username = username))
+        movie_name = movie(name1) #cd 이전 할당 이름
+        movie_code = code(cd) #b 이전 할당 이름
+        movie_people = people(name1) #c 이전 할당 이름
+        if movie_code[1] :
+            db.session.add(List(name = movie_people[3], director = movie_people[0], genre = movie_code[0], country = movie_code[1], actor1 = movie_people[1], actor2 = movie_people[2], rating = rat, username = username))
             db.session.commit()
         else :
-            db.session.add(List(name = c[3], director = c[0], genre = b[0], country = b[3], actor1 = c[1], actor2 = c[2], rating = rat, username = username))
+            db.session.add(List(name = movie_people[3], director = movie_people[0], genre = movie_code[0], country = movie_code[3], actor1 = movie_people[1], actor2 = movie_people[2], rating = rat, username = username))
             db.session.commit()
 
         return redirect(url_for('route1.index'))
@@ -166,6 +166,7 @@ def predict_search():
 
         return render_template('predict_search.html', predict = predict, name = name, username = username)
 #---------------------------------------------------------------#
+## 생략
 # @bp.route('/login', methods = ["post"])
 # def login():
 #     username = request.args.get('loginID')
