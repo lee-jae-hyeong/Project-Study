@@ -17,6 +17,8 @@ SQLAlchemy, SQLite, Flask, Heroku, Beautiful Soup, Regressor, Notion
 ### 6. 웹 어플리케이션 프로세스
 ![image](https://user-images.githubusercontent.com/76590396/127283594-9297c2b9-b4b7-4284-a088-f4031cd9ff19.png)
 ![image](https://user-images.githubusercontent.com/76590396/127285008-4e0ecdf7-e609-46d5-aa68-44d6c835450f.png)
+![image](https://user-images.githubusercontent.com/76590396/127309811-01822850-ce3a-4e42-a5a2-8f29d35d210f.png)
+![image](https://user-images.githubusercontent.com/76590396/127310394-ddacaa59-694f-4c3b-94c3-0a869353ad81.png)
 
 ### 7. 결과
 ####
