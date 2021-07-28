@@ -10,9 +10,13 @@
 ### 4. 데이터 : 네이버 영화 및 자체 유저 등록으로 이용 
 #     
 ### 5. 활용 키워드 : 
-SQLAlchemy, SQLite, Flask, Heroku, Beautiful Soup, Regressor, Notion
 ![image](https://user-images.githubusercontent.com/76590396/127287078-3109c6a5-e9a0-425c-a2a9-0d00fcb5d3a5.png)
-
+### - 웹 어플리케이션 구현 : Flask
+### - DB 생성 : SQLite, SQLAlchemy
+### - 웹 어플리케이션 배포 : Heroku
+### - 웹 스크래이팅 : Beautiful Soup
+### - 웹 디자인 : Notion 템플릿
+### - 평점 예측 모델 구현 : Scikit-learn
 #  
 ### 6. 웹 어플리케이션 프로세스
 ![image](https://user-images.githubusercontent.com/76590396/127311631-95955066-18aa-4af1-9f34-a71dc025b883.png)
