@@ -15,12 +15,21 @@ SQLAlchemy, SQLite, Flask, Heroku, Beautiful Soup, Regressor, Notion
 
 #  
 ### 6. 웹 어플리케이션 프로세스
+![image](https://user-images.githubusercontent.com/76590396/127311631-95955066-18aa-4af1-9f34-a71dc025b883.png)
+#### 1. 유저 등록
+#### 2. 등록된 유저별로, 시청한 영화 평점 등록
+#### 3. 시청한 영화 장르별 평점을 바탕으로 선형 회귀 모델 구현
+#### 4. 구현된 모델을 바탕으로 시청하지 않은 영화 평점 예측
+#
 ![image](https://user-images.githubusercontent.com/76590396/127283594-9297c2b9-b4b7-4284-a088-f4031cd9ff19.png)
 ![image](https://user-images.githubusercontent.com/76590396/127285008-4e0ecdf7-e609-46d5-aa68-44d6c835450f.png)
 ![image](https://user-images.githubusercontent.com/76590396/127309811-01822850-ce3a-4e42-a5a2-8f29d35d210f.png)
 ![image](https://user-images.githubusercontent.com/76590396/127310394-ddacaa59-694f-4c3b-94c3-0a869353ad81.png)
 
 ### 7. 결과
-####
+### -구현 기능
+#### 유저 등록 / 유저 조회 / 유저 삭제 / 영화 평점 등록 / 영화 평점 조회 / 영화 평점 삭제 / 영화 평점 예측
+### -예외 사항 처리
+#### 동일한 유저 이름 등록 불가 / 등록된 영화 평점 중복 등록 불가 / 영화 제목 띄어쓰기 상관 없이 조회 가능 / 영화 제목 조회 안될 시, 재입력 요청 / 평점 등록된 영화 평점 예측 불가
+
 ### 8. 결론
-#### 
