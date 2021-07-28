@@ -29,7 +29,8 @@ def add_user():
 
 
     if User.query.filter_by(username = username1).first() is None :
-        db.session.add(User(username = username1, password = password1))
+#         db.session.add(User(username = username1, password = password1))
+        db.session.add(User(username = username1))
         db.session.commit()
 
         return redirect(url_for('route1.index'))
@@ -87,7 +88,7 @@ def registmovie():
 
     if User.query.filter_by(username = username).first() :     
         movie_name = movie(name1) #cd 이전 할당 이름
-        movie_code = code(cd) #b 이전 할당 이름
+        movie_code = code(movie_name) #b 이전 할당 이름
         movie_people = people(name1) #c 이전 할당 이름
         if movie_code[1] :
             db.session.add(List(name = movie_people[3], director = movie_people[0], genre = movie_code[0], country = movie_code[1], actor1 = movie_people[1], actor2 = movie_people[2], rating = rat, username = username))
