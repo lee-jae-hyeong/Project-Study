@@ -10,9 +10,9 @@ from p_app.naver_scr import movie, code
 
 def model(username, name) :
 
-    cd=movie(name)
-    b = []
-    b.append([username, code(cd)[0]])
+    movie_name=movie(name) # cd 이전 할당 이름
+    movie_data= [] # b 이전 할당 이름
+    movie_data.append([username, code(movie_name)[0]])
     data = List.query.all()
     data1 = List.query.filter_by(username = username).all()
     feature =[] 
