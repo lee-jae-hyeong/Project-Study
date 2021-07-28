@@ -11,6 +11,7 @@
 #     
 ### 5. 활용 키워드 : 
 ![image](https://user-images.githubusercontent.com/76590396/127287078-3109c6a5-e9a0-425c-a2a9-0d00fcb5d3a5.png)
+### - 프로그래밍 언어 : python
 ### - 웹 어플리케이션 구현 : Flask
 ### - DB 생성 : SQLite, SQLAlchemy
 ### - 웹 어플리케이션 배포 : Heroku
