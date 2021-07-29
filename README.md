@@ -3,4 +3,4 @@
 ### 2. 나머지 폴더는 Project 입니다.
 
 ### NLP Keyword
-![image](https://user-images.githubusercontent.com/76590396/127540261-f8ab045b-98ba-4d5b-9109-b6e7f6db2b7e.png)
+![image](https://user-images.githubusercontent.com/76590396/127541372-e3551b82-bf1d-45bc-8607-9b2f4e4c0904.png)
