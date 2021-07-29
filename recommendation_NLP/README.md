@@ -3,18 +3,18 @@
 ### 2. 프로젝트 기간 : Version1 (2021.06.01 ~ 2021.06.11) / Version2(추가 보완)
 #
 ### 3. 주제 선정 이유 
-#### - 이커머스나 OTT 등 추천 시스템은 매우 필수적인 요소가 되었기 때문에 아이템 기반의 협업 필터링 구현을 통해 사용자들에게 추천을 하기 위함.
-#### - 아이템 기반 협업 필터링의 경우, 콜드 스타트 문제가 있어서 신규 고객이나 고객 행동 패턴이 거의 없을 경우에 적용하기엔 한계가 있음. 
-#### - 내용 기반 추천 알고리즘과는 다른 새로운 추천 방식을 적용해보고자 NLP를 활용하여 추천 시스템을 구현하기 위함.
-#### - NLP와 추천 시스템을 접목하여, 문제를 해결해볼 수 있지 않을까라는 생각에서 프로젝트를 진행하였음.
+- 이커머스나 OTT 등 추천 시스템은 매우 필수적인 요소가 되었기 때문에 아이템 기반의 협업 필터링 구현을 통해 사용자들에게 추천을 하기 위함.
+- 아이템 기반 협업 필터링의 경우, 콜드 스타트 문제가 있어서 신규 고객이나 고객 행동 패턴이 거의 없을 경우에 적용하기엔 한계가 있음. 
+- 내용 기반 추천 알고리즘과는 다른 새로운 추천 방식을 적용해보고자 NLP를 활용하여 추천 시스템을 구현하기 위함.
+- NLP와 추천 시스템을 접목하여, 문제를 해결해볼 수 있지 않을까라는 생각에서 프로젝트를 진행하였음.
 #  
 ### 4. 데이터 : Amazon Reviews Data 
-#### - Feature data : train_data(40000 x 10), test_data(10000 x 10)
-#### - URL : https://www.kaggle.com/kashnitsky/hierarchical-text-classification
+- Feature data : train_data(40000 x 10), test_data(10000 x 10)
+- URL : https://www.kaggle.com/kashnitsky/hierarchical-text-classification
 #     
 ### 5. 활용 키워드 :
 ![image](https://user-images.githubusercontent.com/76590396/127207796-ca8201c5-ed94-46cc-a310-5ef56d44211d.png)
-#### Tool : Python, Tensorflow2, Scikit-learn, pandas, nltk 등
+- Tool : Python, Tensorflow2, Scikit-learn, pandas, nltk 등
 #  
 ### 6. 모델링 프로세스
 ![image](https://user-images.githubusercontent.com/76590396/127205894-3caa2d24-7efa-4f1a-a343-db822b5332fa.png)
@@ -32,21 +32,21 @@
 ### 7. 결과
 #### 7-1.앙상블 모델 성능
 ![image](https://user-images.githubusercontent.com/76590396/127200424-3ee73e96-cbba-43dd-9a3a-3b87bd2e11f7.png)
-#### -RFC(랜덤포레스트), RFC_CV(랜덤포레스트, GridSearchCV), XGB(XGBoost), XGB_CV(XGBoost, GridSearchCV)
-#### -앙상블의 공통적으로 들어간 요소 : Chi2, TF-IDF
+- RFC(랜덤포레스트), RFC_CV(랜덤포레스트, GridSearchCV), XGB(XGBoost), XGB_CV(XGBoost, GridSearchCV)
+- 앙상블의 공통적으로 들어간 요소 : Chi2, TF-IDF
 
 #### 7-2.딥러닝 모델 성능
 ![image](https://user-images.githubusercontent.com/76590396/127201121-828f6530-4bad-4c39-9f47-015dc7e604a3.png)
-#### -LSTM, LSTM with Attention, LSTM(Glove), BERT, LSTM(Glove) with attention, Seq2Seq(LSTM with attention)
-#### 결과 : 앙상블 모델과 딥러닝 모델 중, 가장 높은 성능을 보인 모델은 Sequence to Sequence 형태의 LSTM with Attention 모델로, 성능이 0.91이 나왔음.
+- LSTM, LSTM with Attention, LSTM(Glove), BERT, LSTM(Glove) with attention, Seq2Seq(LSTM with attention)
+- 결과 : 앙상블 모델과 딥러닝 모델 중, 가장 높은 성능을 보인 모델은 Sequence to Sequence 형태의 LSTM with Attention 모델로, 성능이 0.91이 나왔음.
 ![image](https://user-images.githubusercontent.com/76590396/127201253-a5b87f31-6a3d-4fbf-a240-036443d45be6.png)
 ![image](https://user-images.githubusercontent.com/76590396/127201284-6d20849d-799e-427f-aee2-289a5bca1d1d.png)
-#### epochs = 50, patience = 15로 학습을 진행하며 Early Stopping을 활용하였음.
-#### 그래서, 시각화 자료에서 도중에 끊긴 그래프들이 보임. 이는 Early Stopping으로 빠르게 손실이 최소화되는 구간을 찾았기 때문임.
+- epochs = 50, patience = 15로 학습을 진행하며 Early Stopping을 활용하였음.
+- 그래서, 시각화 자료에서 도중에 끊긴 그래프들이 보임. 이는 Early Stopping으로 빠르게 손실이 최소화되는 구간을 찾았기 때문임.
 #### 7-3. 평점 재조정으로 상위 5개 제품 추천
 ![image](https://user-images.githubusercontent.com/76590396/127204318-b4b88265-6ff0-4223-aa59-77baf0f2ea7b.png)
-#### 왼쪽 이미지는, 단순하게 평균 평점만으로 상위 5개 제품을 추천해준 것인데, 이러한 방식은 1명이 구매하고, 평점이 5점인 경우로만 나타나게 됨. 그러므로, 해당 평점에 대한 신뢰도가 다소 부족하다고 판단하였음.
-#### 그래서 누적 구매 수량을 가중치로 더하여, 오른쪽 이미지처럼 단순 평균 평점과 완전히 다른 신뢰도가 있는 상품을 추천해줄 수 있게 됨.
+- 왼쪽 이미지는, 단순하게 평균 평점만으로 상위 5개 제품을 추천해준 것인데, 이러한 방식은 1명이 구매하고, 평점이 5점인 경우로만 나타나게 됨. 그러므로, 해당 평점에 대한 신뢰도가 다소 부족하다고 판단하였음.
+- 그래서 누적 구매 수량을 가중치로 더하여, 오른쪽 이미지처럼 단순 평균 평점과 완전히 다른 신뢰도가 있는 상품을 추천해줄 수 있게 됨.
 #
 ### 8. 결론
 - 신규 고객에게도 검색어 하나만으로 추천을 해줄 수 있는 시스템을 구현하였다.
