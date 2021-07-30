@@ -14,7 +14,7 @@
 - Cohort Analysis
 - 연관성 분석(지지도, 신뢰도, 향상도)
 ### 6. 시각화 자료
-### - 재구매 고객 예측 성능
+### - 재구매 고객 예측 모델링 성능 : 일회성 구매 고객과 재구매 고객 예측 모델 구현
 ![image](https://user-images.githubusercontent.com/76590396/127631689-6546ebb4-b63f-426d-842b-372a1cf1fde7.png)
 ### - 고객 행동 패턴 상관 계수
 ![image](https://user-images.githubusercontent.com/76590396/127631030-0aefff3f-2635-4330-8552-02f8c9f6b8da.png)
