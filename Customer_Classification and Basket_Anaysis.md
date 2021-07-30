@@ -20,8 +20,6 @@
 ![image](https://user-images.githubusercontent.com/76590396/127631689-6546ebb4-b63f-426d-842b-372a1cf1fde7.png)
 ### - SHAP를 활용한 모델 해석
 ![image](https://user-images.githubusercontent.com/76590396/127634323-c6eb241b-c439-419f-8337-f7a4092cc644.png)
-### - 고객 행동 패턴 상관 계수
-![image](https://user-images.githubusercontent.com/76590396/127631030-0aefff3f-2635-4330-8552-02f8c9f6b8da.png)
 ### - 최적의 군집화 갯수(실루엣 스코어)
 ![image](https://user-images.githubusercontent.com/76590396/127633451-7b8ce87b-6897-4e2e-bcb4-52d3bdf61a6f.png)
 ### - 군집화 시각화
