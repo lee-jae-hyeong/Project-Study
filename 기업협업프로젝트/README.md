@@ -20,6 +20,7 @@
 - 실루엣 스코어
 - Cohort Analysis
 - 연관성 분석(지지도, 신뢰도, 향상도)
+#
 ### 6. 시각화 자료
 ### - 재구매 고객 예측 모델링 성능 : 일회성 구매 고객과 재구매 고객 예측 모델 구현
 ![image](https://user-images.githubusercontent.com/76590396/127631689-6546ebb4-b63f-426d-842b-372a1cf1fde7.png)
