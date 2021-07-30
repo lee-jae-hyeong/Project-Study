@@ -21,7 +21,7 @@
 ### - 최적의 군집화 갯수(실루엣 스코어)
 ![image](https://user-images.githubusercontent.com/76590396/127633451-7b8ce87b-6897-4e2e-bcb4-52d3bdf61a6f.png)
 ### - 군집화 시각화
-![image](https://user-images.githubusercontent.com/76590396/127631294-d54755c0-e2e4-4cdc-922a-66b7f1108d6e.png)
+![image](https://user-images.githubusercontent.com/76590396/127633782-f8c909d4-0e03-4728-a561-10de141366de.png)
 
 ### 7. 결론
 
