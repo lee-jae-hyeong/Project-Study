@@ -7,6 +7,8 @@
 ### 5. 활용 키워드 
 - Randomforest
 - XGboost
+- SHAP
+- PDP
 - Correlation
 - RFM 분석
 - k-Means(클러스터링)
@@ -16,6 +18,8 @@
 ### 6. 시각화 자료
 ### - 재구매 고객 예측 모델링 성능 : 일회성 구매 고객과 재구매 고객 예측 모델 구현
 ![image](https://user-images.githubusercontent.com/76590396/127631689-6546ebb4-b63f-426d-842b-372a1cf1fde7.png)
+### - SHAP를 활용한 모델 해석
+![image](https://user-images.githubusercontent.com/76590396/127634323-c6eb241b-c439-419f-8337-f7a4092cc644.png)
 ### - 고객 행동 패턴 상관 계수
 ![image](https://user-images.githubusercontent.com/76590396/127631030-0aefff3f-2635-4330-8552-02f8c9f6b8da.png)
 ### - 최적의 군집화 갯수(실루엣 스코어)
