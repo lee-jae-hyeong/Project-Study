@@ -19,7 +19,7 @@
 ### - 고객 행동 패턴 상관 계수
 ![image](https://user-images.githubusercontent.com/76590396/127631030-0aefff3f-2635-4330-8552-02f8c9f6b8da.png)
 ### - 최적의 군집화 갯수(실루엣 스코어)
-![image](https://user-images.githubusercontent.com/76590396/127631117-0f0111c8-8db8-49ad-9d5e-aca72cab65f6.png)
+![image](https://user-images.githubusercontent.com/76590396/127633451-7b8ce87b-6897-4e2e-bcb4-52d3bdf61a6f.png)
 ### - 군집화 시각화
 ![image](https://user-images.githubusercontent.com/76590396/127631294-d54755c0-e2e4-4cdc-922a-66b7f1108d6e.png)
 
