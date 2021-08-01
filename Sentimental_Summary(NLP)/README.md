@@ -15,7 +15,7 @@
 ### 5. 활용 키워드 
 - EDA, Data Visualization, DL(LSTM, Attention, BERT, Transformer), ML(RandomForest, XGboost), SelectKBest(chi2) 등
 #
-### 6. 모델링 프로세스
+### 6. 프로젝트 프로세스
 ![image](https://user-images.githubusercontent.com/76590396/127770884-0b36177b-4fef-4664-b769-c83e0689da9d.png)
 - first step : 평점이 5점인 리뷰 텍스트는 긍정(1), 평점이 4점 이하인 리뷰 텍스트는 부정(0)으로 처리 후, 감성 분석 모델 구현
 (평점 5점은 만족했거나 혹은 의미 없이 주는 점수라고 판단하여 긍정으로 처리, 평점이 4점 이하인 경우는 상품 및 서비스 등 부정적으로 느껴지는 요소가 하나라도 있었을 것이라 추축하여 부정으로 처리)
