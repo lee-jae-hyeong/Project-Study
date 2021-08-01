@@ -33,6 +33,8 @@
 #### - 요약문 모델
 ![image](https://user-images.githubusercontent.com/76590396/127770275-a45b006e-198a-4a02-b257-25f3332ec055.png)
 ![image](https://user-images.githubusercontent.com/76590396/127770195-c8952a83-0556-47a8-bc5d-49accd030cad.png)
+#### - 요약문 모델 성능 비교
+![image](https://user-images.githubusercontent.com/76590396/127771332-6bee1d57-2a2c-42ed-ad1f-32ed087acf9a.png)
 
 ## 8. 결론
 - Version 1과 Version2에서 성능이 차이가 나는 이유는 EDA와 전처리가 달라졌기 때문이다. Version1에서는 제대로 된 EDA 없이 모델링 구현에만 초점을 맞추다 보니, 전처리에서 문제가 발생하였다. 그래서 프로젝트를 보완해나가면서 Version2에서는 EDA를 처음부터 다시 시작하여 전처리를 해주었다. 해당 데이터의 경우, 중복 데이터가 많았기 때문에 이를 전처리 해주지 않았던 Version1에서는 감성 분석 모델, 요약문 모델 모두 성능이 Version2보다 높게 나온 것이었다. 이를 통해서 EDA가 얼마나 중요한지 느낄 수 있었다.
