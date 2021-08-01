@@ -13,7 +13,7 @@
 - URL : https://www.kaggle.com/snap/amazon-fine-food-reviews
 
 ### 5. 활용 키워드 
-- EDA, Data Visualization, DL(LSTM, Attention), ML(RandomForest, XGboost), Tensorflow  등
+- EDA, Data Visualization, DL(LSTM, Attention, BERT, Transformer), ML(RandomForest, XGboost), SelectKBest(chi2) 등
 
 ### 6. 모델링 프로세스
 - 평점이 5점인 리뷰의 경우 1로 치환, 평점이 4점 이하인 리뷰의 경우 0으로 치환하여 감성 분석 모델 구현 - ML과 DL 성능 비교 실시
