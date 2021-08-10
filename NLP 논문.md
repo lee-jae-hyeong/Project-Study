@@ -1,7 +1,7 @@
 |읽은 횟수|대주제|중주제|소주제|논문 이름|주소|
 |:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|
 |1|NLP|Embedding|Word2Vec|Efficient Estimation of Word Representations in Vector Space|https://arxiv.org/pdf/1301.3781.pdf%C3%AC%E2%80%94%20%C3%AC%E2%80%9E%C5%93|
-||NLP|Embedding|FastText|Enriching Word Vectors with Subword Information|https://arxiv.org/abs/1607.04606v2|
+|1|NLP|Embedding|FastText|Enriching Word Vectors with Subword Information|https://arxiv.org/abs/1607.04606v2|
 ||NLP|Embedding|Glove|GloVe: Global Vectors for Word Representation|https://aclanthology.org/D14-1162/|
 ||NLP|Embedding|ELMO|Deep contextualized word representations|https://arxiv.org/abs/1802.05365v2|
 ||NLP|Model/RNN|RNN|||
